@@ -44,6 +44,10 @@ Before deploying the script, ensure you have the following:
 
     The script sets the `Access-Control-Allow-Origin` header. Make sure to adjust the value to match your domain or remove this line if not necessary.
 
+5. **Adjust the submission information**
+
+   Update the incoming field names based on your specific webform and update the quid to correspond to the queue you want to create the tickets in. The LibAnswers API endpoints for retrieving the access token and creating tickets need to be updated for your particular LibAnswers instance.
+
 ## Usage
 
 The script can be executed directly by accessing it via a web browser or by submitting a POST request to the script's URL. The POST request should include all the necessary data as form fields that match the project detail requirements.
